@@ -4,7 +4,7 @@
 ```json
 {
   "projectName" : "tanzu-java-web-app",
-  "repositoryPrefix" : "ec2-54-162-190-235.compute-1.amazonaws.com/learn-tap"
+  "repositoryPrefix" : "harbor-repo.vmware.com/nkoehntap/supply-chain_testing_scanning"
 }
 ```
 ## Log
@@ -93,7 +93,7 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[1].<combo>.transformations[1].transformations[0] (ReplaceText)
 ┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [tanzu-java-web-app->tanzu-java-web-app]
 ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[1].<combo>.transformations[1].transformations[1] (ReplaceText)
-┃ ┃ ┃ ┃ ┗ ┗ ┗  Info Will replace [your-registry.io/project->ec2-54-162-190-235.c...(truncated)]
+┃ ┃ ┃ ┃ ┗ ┗ ┗  Info Will replace [your-registry.io/project->harbor-repo.vmware.c...(truncated)]
 ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2] (Combo)
 ┃ ┃ ┃ ┃ ┃  Info Combo running as Chain(Include, Chain(chain))
 ┃ ┃ ┃ ┃ ┃ engine.transformations[0].validated.merge.transformations[0].sources[2].<combo> (Chain)

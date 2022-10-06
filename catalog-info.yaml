@@ -3,17 +3,12 @@ kind: Component
 metadata:
   name: tanzu-java-web-app
   description: Tanzu Java Web App
-  links:
-    - url: https://google.com
-      title: Nicks Dashboard
-      icon: dashboard
   tags:
     - app-accelerator
     - java
     - spring
     - web
     - tanzu
-    - nick
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
 spec:
